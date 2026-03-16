@@ -1,6 +1,73 @@
+# =========================
+# CUDA intermediate files
+# =========================
 *.i
 *.ii
 *.gpu
 *.ptx
 *.cubin
 *.fatbin
+*.sass
+*.nvvp
+*.cu.cpp
+
+# =========================
+# Visual Studio build output
+# =========================
+Debug/
+Release/
+x64/
+x86/
+build/
+out/
+
+*.obj
+*.o
+*.lo
+*.slo
+*.pdb
+*.idb
+*.ilk
+*.tlog
+*.log
+*.tmp
+*.cache
+*.lastbuildstate
+
+# CUDA specific generated files
+*.cudafe*
+*.module_id
+*.nvfatbin
+*.reg.c
+
+# =========================
+# Visual Studio user files
+# =========================
+.vs/
+*.VC.db
+*.VC.opendb
+*.sdf
+
+*.user
+*.userosscache
+*.suo
+
+# =========================
+# CMake (if used)
+# =========================
+CMakeFiles/
+CMakeCache.txt
+cmake_install.cmake
+Makefile
+
+# =========================
+# Misc
+# =========================
+*.exe
+*.dll
+*.lib
+*.exp
+
+# OS files
+.DS_Store
+Thumbs.db
